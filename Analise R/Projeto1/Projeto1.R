@@ -1,17 +1,14 @@
-setwd("D:/Users/Higor/Documents/Anomalias de Codigo/Analise R/Projeto1")
-getwd()
-
 vendas <- read.csv("Vendas.csv", fileEncoding = "windows-1252")
 
 View(vendas)
 str(vendas)
 
-#Resumo
+#Resumo dos dados
 summary(vendas$Valor)
 summary(vendas$Custo)
 
 #Media
-?mean
+?mean #O ponto de interrogação explica a função seguinte
 mean(vendas$Valor)
 mean(vendas$Valor)
 

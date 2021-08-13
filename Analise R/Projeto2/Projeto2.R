@@ -1,6 +1,3 @@
-setwd("D:/Users/Higor/Documents/Anomalias de Codigo/Analise R/Projeto2")
-getwd()
-
 vendas <- read.csv("Vendas.csv", fileEncoding = "windows-1252")
 
 #Variancia
