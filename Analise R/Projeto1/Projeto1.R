@@ -8,7 +8,7 @@ summary(vendas$Valor)
 summary(vendas$Custo)
 
 #Media
-?mean #O ponto de interrogação explica a função seguinte
+?mean #O ponto de interroga??o explica a fun??o seguinte
 mean(vendas$Valor)
 mean(vendas$Valor)
 
@@ -22,7 +22,7 @@ median(vendas$Custo)
 
 #Moda
 moda <- function(v){
-  valor_unico <- unique(v) #Unique conta o numero de repeticoes
+  valor_unico <- unique(v) #Unique() conta o numero de repeticoes
   valor_unico[which.max(tabulate(match(v, valor_unico)))]
 }
 
