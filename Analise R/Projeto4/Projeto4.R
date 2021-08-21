@@ -1,5 +1,3 @@
-setwd('D:/Users/Higor/Documents/Anomalias de Codigo/estudos-linguagem-R/Analise R/Projeto4')
-
 dados <- read.table("Usuarios.csv",
                     dec = '.',   #Aqui, é definido o separador das casas decimais, "." 
                     sep = ',',   #Aqui, o separador de colunas, ","
