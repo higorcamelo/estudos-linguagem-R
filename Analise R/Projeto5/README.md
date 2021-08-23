@@ -8,5 +8,5 @@
 * Também é criado um gráfico de linhas, permitindo que duas linhas se cruzem, comparando valores
 * É criado um gráfico de caixas com dados padrão do R
 * Um gráfico de dispersão é gerado com valores aleatórios, podendo conter uma linha média
-* Criado um treemap e personaliza-o
+* Criação de um treemap e personaliza-o
 * Por fim, é criado um histograma, que, com uso do ggplot, é possível personalizar mais a representação, alterando cores ou mesmo adiconando degradê
