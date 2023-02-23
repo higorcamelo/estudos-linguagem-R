@@ -8,7 +8,7 @@ summary(vendas$Valor)
 summary(vendas$Custo)
 
 #Media
-?mean #O ponto de interroga??o explica a fun??o seguinte
+?mean #O ponto de interrogacao explica a funcao seguinte
 mean(vendas$Valor)
 mean(vendas$Valor)
 
